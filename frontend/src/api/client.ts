@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://3.108.213.247:8000'
+const API_BASE = import.meta.env.VITE_API_URL || 'https://amwayapi.duckdns.org'
 
 export const api = axios.create({
   baseURL: API_BASE,

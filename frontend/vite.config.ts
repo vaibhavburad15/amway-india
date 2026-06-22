@@ -13,7 +13,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'http://3.108.213.247:8000',
+        target: 'https://amwayapi.duckdns.org',
         changeOrigin: true,
       },
     },
