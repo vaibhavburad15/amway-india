@@ -126,7 +126,7 @@ GROQ_API_KEY=your_groq_api_key_here
 JWT_SECRET_KEY=your_random_secret_key
 JWT_ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=60
-CORS_ORIGINS=http://localhost:5173
+CORS_ORIGINS=http://localhost:5173,https://amway-india.vercel.app
 ```
 
 ## 🧪 Testing the App

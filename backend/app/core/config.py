@@ -11,7 +11,7 @@ from typing import List
 
 class Settings(BaseSettings):
     # MongoDB
-    MONGODB_URL: str = "mongodb://localhost:27017"
+    MONGODB_URL: str = "mongodb+srv://buradvaibhav5_db_user:gDIWmIDGMUSSnIrS@cluster0.j3xoopn.mongodb.net/?appName=Cluster0"
     MONGODB_DB_NAME: str = "nutriguide_db"
 
     # Groq AI
@@ -23,7 +23,10 @@ class Settings(BaseSettings):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60
 
     # CORS
-    CORS_ORIGINS: str = "http://localhost:5173,http://localhost:3000"
+    CORS_ORIGINS: str = (
+        "http://localhost:5173,http://localhost:3000,"
+        "https://amway-india.vercel.app"
+    )
 
     # App
     APP_NAME: str = "NutriGuide AI"
